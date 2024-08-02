@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tea House</title>
+    <link rel="stylesheet" href="./src/main.css">
+    <!--------- google font --------------------------->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body class="font-monrope px-[20px] lg:px-[80px] py-[20px]">
+    <!---------- header start here ---------------------------------->
+    <header class="mb-[60px] lg:mb-[120px]">
+       <div class="banner flex justify-between items-center flex-col gap-[60px] lg:grid grid-cols-2 justify-items-center">
+        <div class="banner-text">
+            <h1 class="text-text-color text-[5rem] leading-[100px] font-[900] mb-[30px] lg: ">It's good <br> 
+                tea time at The <br> Tea House</h1>
+            <p class="text-para-color text-[1.1rem] mb-[30px]">Tea and Botanical Solutions Supplier Give Optimum Satisfaction To Your Taste Buds.</p>
+            <div class="w-[200px] h-[65px] bg-gradient-to-l from-btn-bg-color-1 to-btn-bg-color-2 rounded-[10px] text-btn-text-color flex justify-center items-center gap-[20px]">
+                <a href="#"><button class="text-[1.2rem] font-[700]">Explore More</button></a>
+                <img src="./images/arrow.png" alt="">
+            </div>
+        </div>
+        <div class="banner-img relative">
+            <div>
+                <div>
+                    <img src="./images/banner.png" alt="">
+                </div>
+                <div class="flex justify-center absolute left-[75px] bottom-[30px] bg-float-bg-color items-center gap-[20px] px-[20px] py-[15px] w-[255px] h-[100px] shadow-lg shadow-shadow-color rounded-[10px]">
+                    <img class="w-[46px] h-[46px]" src="./images/star-rating.png" alt="">
+                    <div>
+                        <h1 class="text-[1.9rem] font-[800]">5.00</h1>
+                        <p class="text-[1rem] font-[600] text-para-color">Trust Pilot Ratings</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+       </div>
+    </header>
+    <!-------------- main section start ----------------------------->
+    <main>
+    <!-------------- feature section start ----------------------------->
+    <section class="feature mb-[130px]">
+        <div class="feature-text">
+           <h1 class="text-center text-[2.8rem] font-[800] mb-[25px] text-text-color">Our Featured Products</h1>
+           <p class="text-center text-[1rem] text-para-color mb-[50px]">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some <br>form, by injected humour, or randomised words which don't look even slightly believable. </p>
+
+        </div>
+        <div class="feature-card grid grid-cols-1 justify-items-center content-center gap-[20px] lg:grid-cols-4">
+
+            <div class="card-item w-[270px] h-[-400px] flex flex-col justify-center items-center px-[30px] py-[30px] rounded-[10px] bg-gradient-to-b from-card-bg-color-1 to-card-bg-color-2">
+                <img class="w-[135px] h-[210px] mb-[25px]" src="./images/tea-1.png" alt="">
+                <h2 class="text-[1.5rem] font-[800]">Milk Tea</h2>
+                <p class="text-[1rem] text-para-color text-center">Creamer could be replaced by fresh milk</p>
+            </div>
+
+            <div class="card-item w-[270px] h-[-400px] flex flex-col justify-center items-center px-[30px] py-[30px] rounded-[10px] bg-gradient-to-b from-card-bg-color-1 to-card-bg-color-2">
+                <img class="w-[135px] h-[210px] mb-[25px]" src="./images/tea-2.png" alt="">
+                <h2 class="text-[1.5rem] font-[800]">Black Tea</h2>
+                <p class="text-[1rem] text-para-color text-center">Creamer could be replaced by fresh milk</p>
+            </div>
+
+            <div class="card-item w-[270px] h-[-400px] flex flex-col justify-center items-center px-[30px] py-[30px] rounded-[10px] bg-gradient-to-b from-card-bg-color-1 to-card-bg-color-2">
+                <img class="w-[135px] h-[210px] mb-[25px]" src="./images/tea-3.png" alt="">
+                <h2 class="text-[1.5rem] font-[800]">Lemon Tea</h2>
+                <p class="text-[1rem] text-para-color text-center">Creamer could be replaced by fresh milk</p>
+            </div>
+
+            <div class="card-item w-[270px] h-[-400px] flex flex-col justify-center items-center px-[30px] py-[30px] rounded-[10px] bg-gradient-to-b from-card-bg-color-1 to-card-bg-color-2">
+                <img class="w-[135px] h-[210px] mb-[25px]" src="./images/tea-4.png" alt="">
+                <h2 class="text-[1.5rem] font-[800]">Green Tea</h2>
+                <p class="text-[1rem] text-para-color text-center">Creamer could be replaced by fresh milk</p>
+            </div>
+            
+        </div>
+    </section> 
+    <!-------------- presented section start ----------------------------->
+    <section class="presented mb-[130px] ">
+        <div class="presented-item grid grid-cols-1 gap-[80px] lg:flex justify-around ">
+            
+            <div class="presented-box grid grid-cols-1 lg:flex gap-[20px] justify-center ">
+                <div class="box-1 flex gap-[20px] flex-col-reverse lg:flex-col">
+                    <div class="rounded-[10px] w-[100%] h-[135px] lg:w-[235px] bg-gradient-to-r from-box-3-grad-1 to-box-3-grad-2">
+
+                    </div>
+                    <div class="rounded-[10px] w-[100%] h-[355px] flex justify-center items-center px-[30px] py-[30px] lg:w-[235px] bg-box-2-bg-single ">
+                        <img src="./images/fresh-2.png" alt="">
+                    </div>
+                </div>
+                <div class="box-2 flex gap-[20px] flex-col lg:">
+                    <div class="rounded-[10px] w-[100%] h-[355px] flex justify-center items-center px-[30px] py-[30px] lg:w-[235px] bg-box-1-bg-single ">
+                       <img src="./images/fresh-1.png" alt="">
+                    </div>
+                    <div class="rounded-[10px] w-[100%] h-[135px] lg:w-[235px] bg-gradient-to-r from-box-4-grad-1 to-box-4-grad-2">
+
+                    </div>
+                </div>
+            </div>
+            <div class="presented-text lg:w-[50%]">
+               <h1 class="text-text-color text-[2.8rem] font-[800] leading-[60px] mb-[35px]">Great Tea, Freshly <br>Presented</h1>
+               <p class="text-para-color text-[1rem] mb-[30px] font-[500]">The meaning of gong cha is chanese is to provide the best tea to emperor from all possessions . It represents the highest quality and self expectation. Establishing in 2006, Gong cha had been deeply appreciated by its custoers  because of good words of mouth and unique customized service orginated from Taiwan.</p>
+               <h3 class="text-text-color text-[1.3rem] mb-[15px] font-[800]">Unique Taste</h3>
+               <p class="text-para-color text-[1rem] mb-[20px] font-[500]">A Unique and different style from other teapots gives a luxurious and minimalist impression</p>
+               <h3 class="text-text-color text-[1.3rem] mb-[15px] font-[800]">Premium Quality</h3>
+               <p class="text-para-color text-[1rem] mb-[20px] font-[500]">Premium Quality that makes tea more elegant and more durable when you use it.</p>
+            </div>
+        </div>
+    </section>
+    <!-------------- client section start ----------------------------->
+    <section class="client bg-gradient-to-l from-client-grad-1 to-client-grad-2 mb-[130px] rounded-[10px]">
+        <div class="client-item px-[20px] grid grid-cols-1 lg:px-[70px] py-[80px] lg:flex justify-between gap-[60px]">
+            <div class="client-text flex flex-col justify-center items-center text-white lg:w-[50%]">
+               <div>
+                <h1 class="text-[2.8rem] font-[800] mb-[20px] ">Meet Our Super <br> Clients</h1>
+               <p class="text-[1rem] font-[500] mb-[30px]">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. </p>
+               <a href="#"><button class="w-[140px] h-[55px] bg-white text-red-600 rounded-[10px] text-[1.3rem] font-[700]">Show All</button></a>
+               </div>
+            </div>
+            <div class="client-card flex justify-center items-center relative px-[30px] lg: ">
+               <div class="card-item flex flex-col gap-[30px] ">
+
+                  <div class="item-1 w-[375px] h-[200px] bg-white px-[45px] py-[20px] rounded-[10px] opacity-[0.5] relative">
+                    <p class="text-[1rem] font-[500] text-para-color mb-[20px] ">We are providing the best and suitable home insurance services for the people who are interested to treatment</p>
+                    <h3 class="text-[1rem] font-[700] text-text-color">Ilham Yuda</h3>
+                    <p class="text-[1rem] font-[500] text-para-color ">Businessman</p>
+                    <div class="absolute top-[-15px] left-[-25px]">
+                        <img src="./images/client.png" alt="">
+                    </div>
+                  </div>
+
+                  <div class="item-1 w-[375px] h-[200px] bg-white px-[45px] py-[20px] rounded-[10px] opacity-[0.5]">
+                    <p class="text-[1rem] font-[500] text-para-color mb-[20px] ">We are providing the best and suitable home insurance services for the people who are interested to treatment</p>
+                    <h3 class="text-[1rem] font-[700] text-text-color">Ilham Yuda</h3>
+                    <p class="text-[1rem] font-[500] text-para-color ">Businessman</p>
+
+                  </div>
+
+               </div>
+                 <div class="absolute z-10 top-[110px] right-0 lg:right-[150px]">
+                      <div class="relative">
+                          <div class="item-1 w-[375px] h-[200px] bg-white px-[45px] py-[20px] rounded-[10px]  ">
+                            <p class="text-[1rem] font-[500] text-para-color mb-[20px] ">We are providing the best and suitable home insurance services for the people who are interested to treatment</p>
+                            <h3 class="text-[1rem] font-[700] text-text-color">Ilham Yuda</h3>
+                            <p class="text-[1rem] font-[500] text-para-color ">Businessman</p>
+                            <div class="absolute top-[-15px] left-[-25px]">
+                                <img src="./images/client.png" alt="">
+                            </div>
+                            <div class="absolute right-6 bottom-6">
+                                <img src="./images/circles.png" alt="">
+                            </div>
+                      </div>
+                 </div>
+                   
+              </div>
+
+            </div>
+        </div>
+
+    </section>
+    <!-------------- news section start ----------------------------->
+    <section class="news mb-[130px]">
+        <div class="content flex justify-center items-center flex-col gap-[40px]">
+            <div class="news-text">
+               <h1 class="text-text-color text-[2.8rem] font-[800] text-center mb-[26px]">News & Events</h1>
+               <p class="text-para-color text-[1rem] text-center">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. </p>
+               
+            </div>
+            <div class="news-card grid grid-cols-1 gap-[30px] justify-items-center content-center lg:grid-cols-3">
+
+                <div class="card-item w-[365px] h-[460px] border-[1px] border-para-color rounded-[10px] flex flex-col justify-center items-center px-[20px] py-[20px]">
+                    <img class="border-[1px] border-dashed border-para-color mb-[20px]" src="./images/news-1.png" alt="">
+                    <div>
+                        <p class="text-para-color text-[1rem] font-[500] mb-[10px]">26 Aug 2024</p>
+                        <h3 class="text-text-color text-[1.3rem] font-[800] mb-[15px]">Collecting 8 points for <br> discount</h3>
+                        <p class="text-para-color text-[1rem] font-[500] mb-[10px]">There are many variations of passages of Lorem Ipsum available.</p>
+                        <a href="#"><h4 class="text-text-color text-[1rem] font-[700]">Learn More</h4></a>
+                    </div>
+                </div>
+
+                <div class="card-item w-[365px] h-[460px] border-[1px] border-para-color rounded-[10px] flex flex-col justify-center items-center px-[20px] py-[20px]">
+                    <img class="border-[1px] border-dashed border-para-color mb-[20px]" src="./images/news-2.png" alt="">
+                    <div>
+                        <p class="text-para-color text-[1rem] font-[500] mb-[10px]">26 Aug 2024</p>
+                        <h3 class="text-text-color text-[1.3rem] font-[800] mb-[15px]">Collecting 8 points for <br> discount</h3>
+                        <p class="text-para-color text-[1rem] font-[500] mb-[10px]">There are many variations of passages of Lorem Ipsum available.</p>
+                        <a href="#"><h4 class="text-text-color text-[1rem] font-[700]">Learn More</h4></a>
+                    </div>
+                </div>
+
+                <div class="card-item w-[365px] h-[460px] border-[1px] border-para-color rounded-[10px] flex flex-col justify-center items-center px-[20px] py-[20px]">
+                    <img class="border-[1px] border-dashed border-para-color mb-[20px]" src="./images/news-3.png" alt="">
+                    <div>
+                        <p class="text-para-color text-[1rem] font-[500] mb-[10px]">26 Aug 2024</p>
+                        <h3 class="text-text-color text-[1.3rem] font-[800] mb-[15px]">Collecting 8 points for <br> discount</h3>
+                        <p class="text-para-color text-[1rem] font-[500] mb-[10px]">There are many variations of passages of Lorem Ipsum available.</p>
+                        <a href="#"><h4 class="text-text-color text-[1rem] font-[700]">Learn More</h4></a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    </main>
+    <!-------------- footer section start ----------------------------->
+    <footer class="bg-gradient-to-l from-footer-bg-1 to-footer-bg-2 px-[20px] lg:px-[230px] py-[130px]">
+       <div class="footer-content flex flex-col justify-center gap-[140px] ">
+          <div class="footer-1 grid grid-cols-1 justify-items-center content-center gap-[30px] lg:flex justify-between items-center">
+            <div>
+                <img class="border-[1px] border-dashed border-para-color" src="./images/cup.png" alt="">
+            </div>
+            <div class="flex justify-center items-center gap-[40px]">
+                <h2 class="text-para-color font-[500] text-[1.3rem]">Ready to get strated?</h2>
+                <a href="#"><button class="w-[165px] h-[55px] bg-gradient-to-l from-btn-bg-color-1 to-btn-bg-color-2 rounded-[10px] text-btn-text-color text-[1.2rem] font-[700]">Get Started</button></a>
+            </div>
+          </div>
+
+          <div class="footer-2 grid grid-cols-2 gap-[35px] justify-items-center lg:grid-cols-4">
+             <div class="link-tab-1">
+                <h3 class="text-text-color font-[600] text-[1.3rem] mb-[25px]">Quick Links</h3>
+                <ul class="flex flex-col gap-[20px]">
+                    <li><a class="text-para-color text-[1rem] font-[400]" href="#">Home</a></li>
+                    <li><a class="text-para-color text-[1rem] font-[400]" href="#">About Us</a></li>
+                    <li><a class="text-para-color text-[1rem] font-[400]" href="#">Insurance</a></li>
+                    <li><a class="text-para-color text-[1rem] font-[400]" href="#">Privacy Policy</a></li>
+                </ul>
+             </div>
+             <div class="link-tab-2">
+                <h3 class="text-text-color font-[600] text-[1.3rem] mb-[25px]">Our Service</h3>
+                <ul class="flex flex-col gap-[20px]">
+                    <li><a class="text-para-color text-[1rem] font-[400]" href="#">Life Insurance</a></li>
+                    <li><a class="text-para-color text-[1rem] font-[400]" href="#">Car Insurance</a></li>
+                    <li><a class="text-para-color text-[1rem] font-[400]" href="#">Health Insurance</a></li>
+                    <li><a class="text-para-color text-[1rem] font-[400]" href="#">House Insurance</a></li>
+                </ul>
+             </div>
+             <div class="link-tab-3">
+                <h3 class="text-text-color font-[600] text-[1.3rem] mb-[25px]">Help</h3>
+                <ul class="flex flex-col gap-[20px]">
+                    <li><a class="text-para-color text-[1rem] font-[400]" href="#">FAQs</a></li>
+                    <li><a class="text-para-color text-[1rem] font-[400]" href="#">Contact Us</a></li>
+                </ul>
+             </div>
+             <div class="link-tab-4">
+                <h2 class="text-text-color text-[1.5rem] font-[600] mb-[46px]">Subscribe to our <br> newsletter</h2>
+                <form action="">
+                    <div class="flex justify-center items-center mb-[45px]">
+                       <div class="flex flex-col">
+                          <label for="">Email Address</label>
+                          <input class="bg-transparent border-b-2 border-para-color outline-none" type="text" name="" id="">
+                       </div>
+                          <a href="#"><input  class="w-[32px] h-[32px] bg-gradient-to-l from-btn-bg-color-1 to-btn-bg-color-2 rounded-[50%] text-white text-[1.4rem] font-[800] " type="submit" value=">"></a>
+                    </div>
+                </form>
+                <div class="icon flex gap-[40px]">
+                    <a class="text-[1.5rem] " href="#"><i class="fa-brands fa-facebook"></i></a>
+                    <a class="text-[1.5rem] " href="#"><i class="fa-brands fa-twitter"></i></a>
+                    <a class="text-[1.5rem] " href="#"><i class="fa-brands fa-instagram"></i></a>
+                </div>
+             </div>
+          </div>
+
+          <div class="footer-3">
+             <p class="text-para-color text-center text-[1rem] font-[500]">© 2024 HDR@Coding to - All rights reserved.</p>
+          </div>
+       </div>
+    </footer>
+</body>
+</html>
